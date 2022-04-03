@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WorkScheduleProject"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#ec4141</item>
+        <item name="colorPrimaryDark">#ec4141</item>
+        <item name="colorAccent">#ec4141</item>
+        <item name="android:colorAccent">#ec4141</item>
+        <item name="colorControlNormal">#ec4141</item>
+    </style>
+
+    <style name="checkBox" parent="Theme.AppCompat.DayNight.NoActionBar">
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_weight">1</item>
+       <item name="android:layout_gravity">center</item>
+       <item name="android:buttonTint">#ffffff</item>
+    </style>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background = "@drawable/customdialog"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background = "@drawable/customdialog"
+
+    >
+    <EditText
+        android:id="@+id/customDialog_EdieText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/customdialog_edittext"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:hint="起个标题吧~"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textFontWeight="1000"
+        android:textColorHint="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            >
+            <Button
+                android:id="@+id/customDialog_DateButton"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/customdialog_button_selector"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#ec4141"
+                android:text="Date"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textFontWeight="1000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            >
+
+            <Button
+                android:id="@+id/customDialog_SetupButton"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="New"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textFontWeight="1000"
+                android:background="@drawable/customdialog_button_selector"
+                android:backgroundTint="#ec4141" />
+
+
+        </LinearLayout>
+
+        />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

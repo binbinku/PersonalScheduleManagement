@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AgencyEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <CheckBox
+            android:id="@+id/agency_edit_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:buttonTint="#ec4141" />
+
+        <TextView
+            android:id="@+id/agency_edit_Date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|left"
+            android:text="今天,3.23"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/agency_edit_deleteButton"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customdialog_button_selector"
+            android:fontFamily="sans-serif-medium"
+            android:text="删除"
+            android:textColor="#ffffff"
+            android:textFontWeight="1000"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/agency_edit_Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|left"
+            android:hint="标题"
+            android:paddingLeft="10dp"
+            android:text="这是一个标题"
+            android:textFontWeight="1000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/agency_edit_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="sans-serif-light"
+            android:gravity="top"
+            android:hint="写写你的想法"
+            android:paddingLeft="10dp"
+            android:text="这是内容"
+            android:textSize="16sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            >
+
+            <Button
+                android:id="@+id/agency_edit_dateButton"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/customdialog_button_selector"
+                android:fontFamily="sans-serif-medium"
+                android:text="日期"
+                android:textColor="#ffffff"
+                android:textFontWeight="1000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            >
+            <Button
+                android:id="@+id/agency_edit_saveButton"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/customdialog_button_selector"
+                android:fontFamily="sans-serif-medium"
+                android:text="保存"
+                android:textColor="#ffffff"
+                android:textFontWeight="1000" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    
+</LinearLayout>

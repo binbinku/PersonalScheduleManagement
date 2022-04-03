@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context=".SettingsActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_null"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/setting_bar_shape"
+                android:backgroundTint="#ee0000"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_user_astronaut_solid_white"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center|left"
+                            android:text="个人日程管理系统"
+                            android:textColor="@color/white"
+                            android:textFontWeight="1000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center|left"
+                            android:text="开发：白文斌,张华瑾,张玮琦"
+                            android:textColor="@color/white" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/setting_bar_shape"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="账号设置"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/setting_bar_shape"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="外观"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="日期与时间"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="声音.提醒.通知"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/setting_bar_shape"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="推荐给好友"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/setting_bar_shape"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="新手教程"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/setting_bar_shape"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="更多设置"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="关于"
+                android:textColor="@color/white"
+                android:textFontWeight="1000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
